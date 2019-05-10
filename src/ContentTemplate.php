@@ -25,7 +25,7 @@ class ContentTemplate
      *
      * @return void
      **/
-    public function register()
+    public function register(): void
     {
         add_action('register_post_type_args', [$this, 'postTemplate'], 10, 2);
     }
@@ -38,7 +38,7 @@ class ContentTemplate
      * @param string $postType Post type slug
      * @return array Post type args
      **/
-    protected function postTemplate(array $args, string $postType): array
+    public function postTemplate(array $args, string $postType): array
     {
         if ($postType != $this->postType) {
             return $args;

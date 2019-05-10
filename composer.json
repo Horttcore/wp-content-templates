@@ -1,5 +1,5 @@
 {
-    "name": "horttcore/content-templates",
+    "name": "horttcore/wp-content-templates",
     "description": "Set default block templates for post types",
     "license": "GPL-2.0-or-later",
     "authors": [

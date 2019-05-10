@@ -4,7 +4,7 @@ Gutenberg is capabable for defining default blocks for a new created post type.
 
 ## Installation
 
-`$ composer require horttcore/content-templates`
+`$ composer require horttcore/wp-content-templates`
 
 ## Documentation
 
@@ -35,6 +35,10 @@ new ContentTemplate('post', [
 ```
 
 ## Changelog
+
+### v1.0.2 - 2019/05/10
+
+-   Small fix
 
 ### v1.0.1 - 2019/05/10
 
