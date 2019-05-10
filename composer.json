@@ -1,0 +1,16 @@
+{
+    "name": "horttcore/content-templates",
+    "description": "Set default block templates for post types",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Ralf Hortt",
+            "email": "me@horttcore.de"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Horttcore\\ContentTemplates\\": "src/"
+        }
+    }
+}
