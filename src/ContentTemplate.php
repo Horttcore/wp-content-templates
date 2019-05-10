@@ -1,7 +1,7 @@
 <?php
 namespace Horttcore\ContentTemplates;
 
-class Template
+class ContentTemplate
 {
 
 
@@ -12,7 +12,7 @@ class Template
      * @param array $template Template
      * @param string $templateLock Lock template empty string, all or insert
      **/
-    public function __construct(string $postType, array $template = [], string $templateLock = '')
+    public function __construct(string $postType, array $template, string $templateLock = '')
     {
         $this->postType = $postType;
         $this->template = $template;
